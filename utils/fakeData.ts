@@ -7,8 +7,9 @@ export const generateCharities = (count: number): CharityStruct[] => {
   for (let i = 0; i < count; i++) {
     const charity: CharityStruct = {
       id: i + 1,
-      fullname: faker.word.words(2),
-      name: faker.word.words(5),
+      fullname: faker.person.fullname(),
+      name: faker.helpers.fake('Statistical study of {{science.chemicalElement()}}.'), // 'You can visit me at 3393 Ronny Way Apt. 742.'
+      // name: faker.word.words(5),
       profile: faker.internet.url(),
       image: faker.image.urlPicsumPhotos(),
       description: faker.lorem.paragraph(),
@@ -36,7 +37,7 @@ export const generateSupports = (count: number): SupportStruct[] => {
     const support: SupportStruct = {
       id: i + 1,
       cid: faker.number.int({ min: 1, max: 100 }),
-      fullname: faker.person.firstName(),
+      fullname: faker.person.fullname(),
       comment: faker.lorem.paragraph(),
       timestamp: faker.date.past().getTime(),
       amount: faker.number.float({ min: 0.01, max: 4 }),

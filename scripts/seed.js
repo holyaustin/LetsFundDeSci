@@ -11,8 +11,8 @@ const generateCharities = (count) => {
   for (let i = 0; i < count; i++) {
     const charity = {
       id: i + 1,
-      fullname: faker.word.words(2),
-      name: faker.word.words(5),
+      fullname: faker.person.fullname(),
+      name: faker.helpers.fake('Statistical study of {{science.chemicalElement()}}.'), // 'You can visit me at 3393 Ronny Way Apt. 742.'
       profile: faker.internet.url(),
       image: faker.image.urlPicsumPhotos(),
       description: faker.lorem.paragraph(),

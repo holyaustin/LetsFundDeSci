@@ -22,23 +22,23 @@ import { SessionProvider } from 'next-auth/react'
 const publicProviderAIA = process.env.NEXT_PUBLIC_AIA_RPC_URL
 
 const aiaTestnet: Chain = {
-  id: 1_320,
-  name: 'AIA_Testnet',
+  id: 1_515,
+  name: 'Citrea_Testnet',
   network: 'aia',
-  iconUrl: 'https://testnet.aiascan.com/static/logo-dark-placeholder.svg',
+  iconUrl: 'https://citrea.xyz/img/apple-icon.png',
   iconBackground: '#000000',
   nativeCurrency: {
     decimals: 18,
-    name: 'AIA',
-    symbol: 'AIA',
+    name: 'Citrea Bitcoin',
+    symbol: 'cBTC',
   },
   rpcUrls: {
-    public: { http: ['https://aia-dataseed1-testnet.aiachain.org'] },
-    default: { http: ['https://aia-dataseed1-testnet.aiachain.org'] },
+    public: { http: ['https://rpc.testnet.citrea.xyz'] },
+    default: { http: ['https://rpc.testnet.citrea.xyz'] },
   },
   blockExplorers: {
-    default: { name: 'Aia Block Explorer', url: 'https://testnet.aiascan.com/' },
-    etherscan: { name: 'Aia Block Explorer', url: 'https://testnet.aiascan.com/' },
+    default: { name: 'Citrea Block Explorer', url: 'https://explorer.testnet.citrea.xyz' },
+    etherscan: { name: 'Citrea Block Explorer', url: 'https://explorer.testnet.citrea.xyz' },
   },
   testnet: true,
 } 
@@ -69,7 +69,7 @@ const wagmiConfig = createConfig({
 })
 
 const demoAppInfo = {
-  appName: 'LetsFunds dApp',
+  appName: 'LetsFund DeSci',
 }
 
 const getSiweMessageOptions: GetSiweMessageOptions = () => ({
