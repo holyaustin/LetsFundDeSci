@@ -9,7 +9,7 @@ const Banner: React.FC<{ mine?: boolean }> = ({ mine }) => {
   return (
     <div
       style={{ backgroundImage: 'url(' + IMAGE_BANNER + ')' }}
-      className="relative w-full h-[36rem] flex items-center justify-center text-white
+      className="relative w-full h-[44rem] flex items-center justify-center text-white
       bg-no-repeat bg-cover bg-center"
     >
       <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black opacity-75"></div>

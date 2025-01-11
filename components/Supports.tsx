@@ -36,8 +36,8 @@ const Supports: React.FC<{ supports: SupportStruct[] }> = ({ supports }) => {
 
           <button
             type="submit"
-            className="flex flex-row justify-center items-center w-full text-black text-md
-            bg-amber-600 py-3 px-20 rounded-full drop-shadow-xl border font-medium
+            className="flex flex-row justify-center items-center w-full text-black text-xl
+            bg-amber-600 py-4 px-10 rounded-full drop-shadow-xl border font-medium
             focus:outline-none focus:ring mt-5"
           >
             Donate Now

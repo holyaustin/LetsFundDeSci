@@ -24,7 +24,7 @@ const Payment: React.FC<ComponentProp> = ({ charity, supports, owner }) => {
     >
       <div className="font-light">
         <div className="flex items-end space-x-2 mb-4">
-          <h4 className="text-4xl flex justify-start items-center space-x-1">
+          <h4 className="text-3xl flex justify-start items-center space-x-1">
             <FaEthereum />
             <span>{charity.raised.toFixed(2)}</span>
           </h4>
@@ -43,7 +43,7 @@ const Payment: React.FC<ComponentProp> = ({ charity, supports, owner }) => {
 
       <div className="flex flex-col space-y-2 font-semibold">
         <button
-          className="bg-amber-500 py-3 px-20 rounded-xl
+          className="bg-amber-500 py-3 px-2 rounded-xl
           transition-all duration-300 ease-in-out
           hover:bg-amber-600"
         >
@@ -51,7 +51,7 @@ const Payment: React.FC<ComponentProp> = ({ charity, supports, owner }) => {
         </button>
         {!charity.banned ? (
           <button
-            className="bg-amber-500 py-3 px-20 rounded-xl
+            className="bg-amber-500 py-3 px-2 rounded-xl
           transition-all duration-300 ease-in-out
           hover:bg-amber-400"
             onClick={() => dispatch(setDonorModal('scale-100'))}
@@ -76,7 +76,7 @@ const Payment: React.FC<ComponentProp> = ({ charity, supports, owner }) => {
         ))}
       </div>
 
-      <div className="flex justify-start items-center space-x-4">
+      <div className="flex justify-start items-center space-x-2 text-sm ">
         <button
           onClick={() => dispatch(setSupportModal('scale-100'))}
           className="border border-gray-300 py-2 px-4 rounded-lg font-medium
