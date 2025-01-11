@@ -122,7 +122,7 @@ const Page: NextPage = () => {
                 step={0.01}
                 min={0.01}
                 name="amount"
-                placeholder="Amount e.g. 0.02 AIA"
+                placeholder="Amount e.g. 0.02 cBTC"
                 required
                 value={charity.amount}
                 onChange={handleChange}
@@ -151,7 +151,7 @@ const Page: NextPage = () => {
                   border-0 focus:outline-none focus:ring-0"
                   type="text"
                   name="profile"
-                  placeholder="Your LinkedIn Profile"
+                  placeholder="Your Github URL"
                   required
                   value={charity.profile}
                   onChange={handleChange}

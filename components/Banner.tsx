@@ -21,8 +21,10 @@ const Banner: React.FC<{ mine?: boolean }> = ({ mine }) => {
             Lets Fund <br /> <br /> Decentralize Science (DeSci)
           </h1>
         ) : (
-          <h1 className="text-7xl text-center font-semibold">
-            DeSci <br /> Projects
+          <h1 className="text-center font-semibold 
+          [text-shadow:_0_4px_4px_rgb(99_102_241_/_0.8)]
+           text-pink-600 text-xl md:text-5xl leading-snug">
+            Decentralize Science <br /> Projects
           </h1>
         )}
         <br />

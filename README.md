@@ -1,6 +1,6 @@
 # LetsFund: Web3 Consumer Project
 
-"letsfund" is a groundbreaking Web3 charity fundraising platform designed to revolutionize the way charitable organizations raise funds and engage with their communities. Deployed on the AIA Blockchain, letsfund combines the transparency and security of blockchain technology with an intuitive user experience, allowing both donors and beneficiaries to experience a seamless and trustworthy process. By leveraging decentralized technologies, letsfund aims to minimize overhead costs, enhance donor engagement, and ensure that contributions have a direct and measurable impact.
+"letsfund DeSci" is a groundbreaking Web3 DeSci fundraising platform designed to revolutionize the way charitable organizations raise funds and engage with their communities. Deployed on the Citrea Blockchain, letsfund combines the transparency and security of blockchain technology with an intuitive user experience, allowing both donors and beneficiaries to experience a seamless and trustworthy process. By leveraging decentralized technologies, letsfund aims to minimize overhead costs, enhance donor engagement, and ensure that contributions have a direct and measurable impact.
 
 ![Project Marketplace](./screenshots/letsfund2.png)
 
@@ -10,19 +10,6 @@ The `LetsFund.sol` project is a Solidity smart contract that serves as the backb
 
 ![Project Marketplace](./screenshots/letsfund3.png)
 The contract is designed around two primary structures: CharityStruct and SupportStruct, representing a charity and a supporter, respectively.
-
-## Key features:
-
-- createCharity: Allows a user to create a new charity.
-- updateCharity: Allows the charity owner to update the details of an existing charity.
-- deleteCharity: Allows the charity owner or contract owner to delete a charity.
-- toggleBan: Allows the contract owner to ban or unban a charity.
-- donate: Allows a user to donate to a charity.
-- changeTax: Allows the contract owner to change the tax percentage.
-- getCharity: Returns a single charity by its ID.
-- getCharities: Returns all existing charities.
-- getMyCharities: Returns all charities created by the caller.
-- getSupports: Returns all supporters for a specific charity.
 
 ## Running the Application
 
@@ -51,7 +38,7 @@ Now, your application should be up and running.
 
 ## Important Project URLs
 
-- Deployed Contract: https://testnet.aiascan.com/address/0xe078fe7A93017F8e18c1C52E79632d0B94c56c26
+- Deployed Contract: https://testnet.Citreascan.com/address/0xe078fe7A93017F8e18c1C52E79632d0B94c56c26
 - Youtube video: https://youtu.be/DrqK19pH5q4
 - Live dApp: https://lets-fund.vercel.app/
 - Github Repo: https://github.com/holyaustin/LetsFund
@@ -71,7 +58,7 @@ Now, your application should be up and running.
 
 ## Useful links
 
-- 🏠 [AIA Website](https://www.aiachain.org/en)
+- 🏠 [Citrea Website](https://citrea.xyz/)
 - ⚽ [Metamask](https://metamask.io/)
 - 💡 [Hardhat](https://hardhat.org/)
 - 📈 [Alchemy](https://dashboard.alchemy.com/)
