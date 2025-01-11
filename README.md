@@ -2,13 +2,13 @@
 
 "letsfund DeSci" is a groundbreaking Web3 DeSci fundraising platform designed to revolutionize the way charitable organizations raise funds and engage with their communities. Deployed on the Citrea Blockchain, letsfund combines the transparency and security of blockchain technology with an intuitive user experience, allowing both donors and beneficiaries to experience a seamless and trustworthy process. By leveraging decentralized technologies, letsfund aims to minimize overhead costs, enhance donor engagement, and ensure that contributions have a direct and measurable impact.
 
-![Project Marketplace](./screenshots/letsfund2.png)
+![Project Marketplace](./screenshots/1.png)
 
 Letsfund operates as a decentralized crowdfunding platform dedicated to charitable causes. Whether it's supporting humanitarian projects, funding healthcare initiatives, providing educational resources, or aiding disaster relief efforts, letsfund empowers organizations and individuals to raise funds effectively. The platform assures donors that their contributions are transparent and utilized appropriately, addressing the common concerns regarding the effectiveness of charitable donations.
 
 The `LetsFund.sol` project is a Solidity smart contract that serves as the backbone of a decentralized application (dApp) for charity purposes. It leverages the OpenZeppelin library to ensure secure and standardized development of the contract.
 
-![Project Marketplace](./screenshots/letsfund3.png)
+![Project Marketplace](./screenshots/2.png)
 The contract is designed around two primary structures: CharityStruct and SupportStruct, representing a charity and a supporter, respectively.
 
 ## Running the Application

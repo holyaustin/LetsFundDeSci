@@ -4,7 +4,8 @@ import { MdSunnySnowing } from 'react-icons/md'
 import { AiFillDollarCircle } from 'react-icons/ai'
 import { AiFillExperiment } from 'react-icons/ai'
 
-const IMAGE_BANNER = 'https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1434/https://s3.cointelegraph.com/uploads/2024-10/01926d5a-409a-758a-9761-8b7841067085'
+const IMAGE_BANNER = 'banner2.png'
+
 const Banner: React.FC<{ mine?: boolean }> = ({ mine }) => {
   return (
     <div
