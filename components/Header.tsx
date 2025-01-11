@@ -24,6 +24,14 @@ const Header: React.FC = () => {
               <span className='hidden sm:flex'>LetsFund</span>
             </Link>
 
+            <Link
+              className="text-sm font-semibold leading-relaxed text-green-600
+            flex justify-start items-center py-2 whitespace-no-wrap uppercase"
+              href="/fund"
+            >
+             
+              <span className='hidden sm:flex'>Explore</span>
+            </Link>
             <ConnectBtn />
           </div>
         </div>

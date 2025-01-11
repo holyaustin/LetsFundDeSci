@@ -22,7 +22,7 @@ import { SessionProvider } from 'next-auth/react'
 const publicProviderAIA = process.env.NEXT_PUBLIC_AIA_RPC_URL
 
 const aiaTestnet: Chain = {
-  id: 1_515,
+  id: 5_115,
   name: 'Citrea_Testnet',
   network: 'aia',
   iconUrl: 'https://citrea.xyz/img/apple-icon.png',
