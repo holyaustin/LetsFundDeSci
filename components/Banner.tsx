@@ -1,6 +1,8 @@
 import Link from 'next/link'
 import React from 'react'
 import { MdSunnySnowing } from 'react-icons/md'
+import { AiFillDollarCircle } from 'react-icons/ai'
+import { AiFillExperiment } from 'react-icons/ai'
 
 const IMAGE_BANNER = 'https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1434/https://s3.cointelegraph.com/uploads/2024-10/01926d5a-409a-758a-9761-8b7841067085'
 const Banner: React.FC<{ mine?: boolean }> = ({ mine }) => {
@@ -11,10 +13,12 @@ const Banner: React.FC<{ mine?: boolean }> = ({ mine }) => {
       bg-no-repeat bg-cover bg-center"
     >
       <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black opacity-75"></div>
-      <div className="flex flex-col justify-end text-pink-400 p-8 space-y-8 relative z-10 h-80">
+      <div className="flex flex-col justify-center items-center text-pink-500 p-8 space-y-4 relative z-10 h-80">
         {!mine ? (
-          <h1 className="text-5xl text-center font-semibold">
-            Lets Fund <br /> <br /> Decentralised Science (DeSci)
+          <h1 className=" text-center font-semibold 
+          [text-shadow:_0_4px_4px_rgb(99_102_241_/_0.8)]
+           text-pink-600 text-xl md:text-5xl leading-snug">
+            Lets Fund <br /> <br /> Decentralize Science (DeSci)
           </h1>
         ) : (
           <h1 className="text-7xl text-center font-semibold">
@@ -24,13 +28,24 @@ const Banner: React.FC<{ mine?: boolean }> = ({ mine }) => {
         <br />
         <Link
           href={'/donations/create'}
-          className="bg-white text-green-600 px-4 space-x-1 font-bold
+          className="bg-white text-green-600 w-1/3 px-4 space-x-1 font-bold
         flex justify-center items-center rounded-full text-center py-3
         transition duration-300 ease-in-out hover:bg-green-600 hover:text-white"
         >
-          <MdSunnySnowing size={25} />
-          <span>Create a Project</span>
+          <AiFillExperiment size={25} />
+          <span>Create Project</span>
         </Link>
+
+        <Link
+          href={'/donations/create'}
+          className="bg-white text-green-600 w-1/3 px-4 space-x-1 font-bold
+        flex justify-center items-center rounded-full text-center py-3
+        transition duration-300 ease-in-out hover:bg-green-600 hover:text-white"
+        >
+          < AiFillDollarCircle size={25} />
+          <span>Fund Project</span>
+        </Link>
+
       </div>
     </div>
   )

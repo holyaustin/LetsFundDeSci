@@ -10,9 +10,9 @@ const Start: React.FC = () => {
           className="w-full lg:w-80 flex flex-col border-2 border-transparent
           justify-center items-center space-y-2 sm:items-start"
         >
-          <h4 className="font-medium text-gray-800">Make a difference</h4>
-          <h1 className="text-4xl font-medium">
-            Fundraise <br /> for...
+          <h4 className="font-medium text-gray-800">Make a difference. This is what makes DeSci unique: </h4>
+          <h1 className="text-2xl font-medium text-green-600">
+            Fundraise <br /> for ...
           </h1>
         </div>
         <Link
@@ -22,7 +22,7 @@ const Start: React.FC = () => {
           transition-all duration-300 ease-in-out cursor-pointer mt-4 lg:mt-0"
         >
           <img src="https://d25oniaj7o2jcw.cloudfront.net/start-yourself.png" alt="yourself" />
-          <h4 className="text-xl font-medium">Yourself</h4>
+          <h4 className="text-xl font-medium">Open Research</h4>
           <FiArrowRightCircle size={35} />
           <div className=" h-6"></div>
         </Link>
@@ -33,7 +33,7 @@ const Start: React.FC = () => {
           transition-all duration-300 ease-in-out cursor-pointer mt-4 lg:mt-0"
         >
           <img src="https://d25oniaj7o2jcw.cloudfront.net/start-friends-family.png" alt="f&f" />
-          <h4 className="text-xl font-medium">Friends & Family</h4>
+          <h4 className="text-xl font-medium">Data Sharing</h4>
           <FiArrowRightCircle size={35} />
           <div className=" h-6"></div>
         </Link>
@@ -44,7 +44,7 @@ const Start: React.FC = () => {
           transition-all duration-300 ease-in-out cursor-pointer mt-4 lg:mt-0"
         >
           <img src="https://d25oniaj7o2jcw.cloudfront.net/start-charity.png" alt="charity" />
-          <h4 className="text-xl font-medium">Charity</h4>
+          <h4 className="text-xl font-medium">Collaboration</h4>
           <FiArrowRightCircle size={35} />
           <div className=" h-6"></div>
         </Link>

@@ -6,14 +6,17 @@ import Link from 'next/link'
 const Quote = () => {
   return (
     <div className="bg-green-600 text-white py-10 my-10">
-      <div className="text-white lg:w-2/3 w-full mx-auto space-y-4 mt-2 px-8 lg:px-0">
-        <h4 className="font-semibold flex justify-start items-center space-x-1">
+      <div className="text-white lg:w-3/4 w-full mx-auto space-y-4 mt-2 px-8 lg:px-0 text-justify">
+        <h3 className="font-semibold flex justify-start items-center space-x-1 text-2xl">
           <LuBadgeCheck />
-          <span>Start a charity campaign today </span>
-        </h4>
+          <span>What Is DeSci? </span>
+        </h3>
         <h1 className="font-semibold text-5xl">We've got you covered.</h1>
-        <p className="w-full lg:w-2/4">
-          With a global team dedicated to helping you start that fundraising campaign. Our platform is built to help you easily set up your fundraising campaign and get your project get the required attention need globally..
+        <p className="w-full lg:w-3/4 font-semibold">
+        DeSci aims to democratize and accelerate scientific progress by leveraging blockchain technology, cryptocurrencies, open-source principles, and community-driven initiatives.
+        </p>
+        <p className="w-full lg:w-3/4 font-semibold">
+        Decentralized science (also known as DeSci) is an area of Web3 that aims to change the way research functions. It utilizes the three pillars of blockchain to address some of the issues endemic to traditional science, especially access, participation, and funding.
         </p>
 
         <div className='flex'>

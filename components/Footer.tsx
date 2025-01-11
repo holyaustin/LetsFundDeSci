@@ -17,32 +17,31 @@ const Footer: React.FC = () => {
               href="/"
             >
               <MdSunnySnowing size={25} />
-              <span>LetsFund</span>
+              <span>LetsFund DeSci</span>
             </Link>
 
             <div className="space-y-2">
               <h4 className="font-semibold">Fundraise for</h4>
               <ul className="space-y-2">
-                <li>Medical</li>
-                <li>Emergency</li>
-                <li>Memorial</li>
+                <li>Open Research </li>
+                <li>Community Engagement</li>
+                <li>Data Sharing</li>
                 <li>Education</li>
-                <li>Charity</li>
-                <li>Flooding / Fire Disaster</li>
+                <li>Incentivization</li>
+                <li>Discovery</li>
               </ul>
             </div>
 
             <div className="space-y-2">
               <h4 className="font-semibold">Learn more</h4>
               <ul className="space-y-2">
-                <li>How LetsFundMe Works</li>
+                <li>How LetsFund DeSci Works</li>
                 <li>Common questions</li>
                 <li>Success stories</li>
                 <li>Supported countries</li>
-                <li>Charity fundraising</li>
-                <li>Corporate fundraising</li>
+                <li>Artifact storage</li>
                 <li>Event fundraising</li>
-                <li>Pricing</li>
+                
               </ul>
             </div>
 
@@ -67,7 +66,7 @@ const Footer: React.FC = () => {
             justify-center sm:justify-between"
           >
             <p className="flex space-x-4 items-center text-gray-600">
-              With ♥️ LetsFund &copy;{new Date().getFullYear()}
+              Designed With ♥️ LetsFund DeSci &copy;{new Date().getFullYear()}
             </p>
           </div>
         </div>

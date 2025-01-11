@@ -7,9 +7,9 @@ import { MdChevronRight } from 'react-icons/md'
 const Cards: React.FC<{ charities: CharityStruct[] }> = ({ charities }) => {
   return (
     <div className="my-10 lg:w-2/3 w-full mx-auto">
-      <p className="text-center">You can be of help</p>
+      <p className="text-center font-bold text-green-600">Fund What Matters</p>
       <h4 className="text-2xl font-medium mb-6 mt-2 text-center">
-        {charities.length > 0 ? 'Featured Charities' : 'No Charities Yet'}
+        {charities.length > 0 ? 'Featured Project' : 'No Project Yet'}
       </h4>
       <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 justify-items-center">
         {charities.map((charity: CharityStruct, i: number) => (
@@ -38,8 +38,8 @@ const Card: React.FC<{ charity: CharityStruct }> = ({ charity }) => {
           </div>
         </div>
         <Link
-          className="flex justify-start items-center space-x-2
-          transition-all duration-300 ease-in-out hover:pl-5"
+          className="flex justify-start items-center space-x-2 font-bold
+          transition-all duration-300 ease-in-out hover:pl-5 text-pink-500"
           href={'/donations/' + charity.id}
         >
           <span>Donate now</span>
