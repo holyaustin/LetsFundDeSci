@@ -12,7 +12,8 @@ const generateCharities = (count) => {
     const charity = {
       id: i + 1,
       fullname: faker.person.firstName(),
-      name: faker.helpers.fake('Statistical study of {{science.chemicalElement().name}}.'), // 'You can visit me at 3393 Ronny Way Apt. 742.'
+      name: faker.helpers.arrayElement(['THE STEM BARK EXTRACTS OF INDIGOFERA ARRECTAHOCHST EX A. RICH FABACEAE', 'THE METHANOL EXTRACT OF THE ROOT OF NAPOLEONAEA HEUDELOTTI A.JUSS', 'CASTOR OILS AND STUDIES OF THEIR FUEL PROPERTIES']),
+      //faker.word.words(5),
       profile: faker.internet.url(),
       image: faker.image.urlPicsumPhotos(),
       description: faker.lorem.paragraph(),

@@ -48,7 +48,7 @@ const Page: NextPage<{ charityData: CharityStruct }> = ({ charityData }) => {
       }),
       {
         pending: 'Approve transaction...',
-        success: 'Charity created successfully 👌',
+        success: 'Project created successfully 👌',
         error: 'Encountered error 🤯',
       }
     )
@@ -57,7 +57,7 @@ const Page: NextPage<{ charityData: CharityStruct }> = ({ charityData }) => {
   return (
     <div>
       <Head>
-        <title>Charity Update</title>
+        <title>Project Update</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -69,7 +69,7 @@ const Page: NextPage<{ charityData: CharityStruct }> = ({ charityData }) => {
         <div className="block justify-center items-center m-auto w-full sm:w-3/5">
           <form onSubmit={handleSubmit} className="flex flex-col space-y-4">
             <div className="flex items-center justify-center mb-4">
-              <h2>Edit Charity</h2>
+              <h2>Edit Project</h2>
             </div>
 
             <div className="flex justify-between items-center flex-col sm:flex-row sm:space-x-4 space-y-4 sm:space-y-0">
@@ -78,7 +78,7 @@ const Page: NextPage<{ charityData: CharityStruct }> = ({ charityData }) => {
                   className="block w-full text-sm text-slate-500 bg-transparent border-0 focus:outline-none focus:ring-0"
                   type="text"
                   name="name"
-                  placeholder="Charity Name"
+                  placeholder="Project Name"
                   required
                   value={charity.name}
                   onChange={handleChange}

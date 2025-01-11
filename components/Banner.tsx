@@ -37,7 +37,7 @@ const Banner: React.FC<{ mine?: boolean }> = ({ mine }) => {
         </Link>
 
         <Link
-          href={'/donations/create'}
+          href={'/fund'}
           className="bg-white text-green-600 w-1/3 px-4 space-x-1 font-bold
         flex justify-center items-center rounded-full text-center py-3
         transition duration-300 ease-in-out hover:bg-green-600 hover:text-white"

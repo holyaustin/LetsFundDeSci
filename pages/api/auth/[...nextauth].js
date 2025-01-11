@@ -6,7 +6,7 @@ import NextAuth from 'next-auth/next'
 export default async function auth(req, res) {
   const providers = [
     CredentialsProvider({
-      name: 'AIA',
+      name: 'cBTC',
       credentials: {
         message: {
           label: 'Message',

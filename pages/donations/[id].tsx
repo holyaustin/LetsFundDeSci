@@ -37,7 +37,7 @@ const Page: NextPage<PageProps> = ({ charityData, supportsData, owner }) => {
   return (
     <div>
       <Head>
-        <title>Charity | {charity?.name}</title>
+        <title>Project | {charity?.name}</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
