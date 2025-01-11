@@ -1,4 +1,4 @@
-# LetsFund: Web3 Consumer Project
+# LetsFund DeSci
 
 "letsfund DeSci" is a groundbreaking Web3 DeSci fundraising platform designed to revolutionize the way charitable organizations raise funds and engage with their communities. Deployed on the Citrea Blockchain, letsfund combines the transparency and security of blockchain technology with an intuitive user experience, allowing both donors and beneficiaries to experience a seamless and trustworthy process. By leveraging decentralized technologies, letsfund aims to minimize overhead costs, enhance donor engagement, and ensure that contributions have a direct and measurable impact.
 
@@ -38,7 +38,8 @@ Now, your application should be up and running.
 
 ## Important Project URLs
 
-- Deployed Contract: https://testnet.Citreascan.com/address/0xe078fe7A93017F8e18c1C52E79632d0B94c56c26
+- Deployed Contract: https://explorer.testnet.citrea.xyz/address/0xC310585aD34ddEF51009A9C92f38E8bA8A5d2375
+
 - Youtube video: https://youtu.be/DrqK19pH5q4
 - Live dApp: https://lets-fund.vercel.app/
 - Github Repo: https://github.com/holyaustin/LetsFund
