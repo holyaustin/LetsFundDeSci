@@ -48,7 +48,7 @@ const Details: React.FC<ComponentProp> = ({ charity, supports }) => {
           transition-all duration-300 ease-in-out
          hover:bg-gray-100"
         >
-          Share
+          Send Mail
         </button>
       </div>
 

@@ -1,5 +1,7 @@
 import React from 'react'
+import Link from 'next/link'
 import Donation from './Donation'
+import Mail from '../pages/mail'
 import { FaBan, FaEthereum } from 'react-icons/fa'
 import { CharityStruct, SupportStruct } from '@/utils/type.dt'
 import { useDispatch } from 'react-redux'
@@ -42,13 +44,15 @@ const Payment: React.FC<ComponentProp> = ({ charity, supports, owner }) => {
       </div>
 
       <div className="flex flex-col space-y-2 font-semibold">
+      <Link href="/mail" >
         <button
-          className="bg-amber-500 py-3 px-2 rounded-xl
+          className="w-full bg-amber-500 py-3 px-2 rounded-xl
           transition-all duration-300 ease-in-out
           hover:bg-amber-600"
         >
-          Share
+          Send Mail
         </button>
+      </Link>
         {!charity.banned ? (
           <button
             className="bg-amber-500 py-3 px-2 rounded-xl

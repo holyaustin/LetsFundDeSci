@@ -1,5 +1,6 @@
 import { ToastContainer } from 'react-toastify'
 import '@/styles/global.css'
+import '@/styles/styles.css'
 import 'react-toastify/dist/ReactToastify.css'
 import '@rainbow-me/rainbowkit/styles.css'
 import { useEffect, useState } from 'react'
