@@ -14,7 +14,7 @@ import {
   TableRow,
 } from '@mui/material';
 import { type Contact } from '@iexec/web3mail';
-import { fetchMyContacts, sendMail } from './web3mail/web3mail';
+import { fetchMyContacts, sendMail } from '@/components/web3mail/web3mail';
 //import './styles.css';
 
 export default function Main() {

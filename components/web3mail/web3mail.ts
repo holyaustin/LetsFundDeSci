@@ -1,3 +1,5 @@
+// @ts-nocheck
+import React from 'react'
 import { IExecWeb3mail } from '@iexec/web3mail';
 import { checkCurrentChain, checkIsConnected } from './utils';
 

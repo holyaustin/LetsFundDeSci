@@ -1,3 +1,4 @@
+import React from 'react'
 const IEXEC_CHAIN_ID = '0x86'; // 134
 
 export function checkIsConnected() {

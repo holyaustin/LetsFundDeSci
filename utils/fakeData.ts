@@ -1,4 +1,4 @@
-import { faker } from '@faker-js/faker/dist/types'
+import { faker } from '@faker-js/faker'
 import { CharityStruct, SupportStruct } from './type.dt'
 
 export const generateCharities = (count: number): CharityStruct[] => {
