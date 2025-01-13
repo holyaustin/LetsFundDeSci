@@ -40,7 +40,7 @@ const Donor: React.FC<{ charity: CharityStruct }> = ({ charity }) => {
       }),
       {
         pending: 'Approve transaction...',
-        success: 'Donotion received successfully 👌',
+        success: 'Donation received successfully 👌',
         error: 'Encountered error 🤯',
       }
     )

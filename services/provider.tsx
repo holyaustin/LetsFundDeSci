@@ -24,7 +24,7 @@ const publicProviderAIA = process.env.NEXT_PUBLIC_AIA_RPC_URL
 const aiaTestnet: Chain = {
   id: 5_115,
   name: 'Citrea_Testnet',
-  network: 'aia',
+  network: 'Citrea',
   iconUrl: 'https://citrea.xyz/img/apple-icon.png',
   iconBackground: '#000000',
   nativeCurrency: {
@@ -69,7 +69,7 @@ const wagmiConfig = createConfig({
 })
 
 const demoAppInfo = {
-  appName: 'LetsFund DeSci',
+  appName: 'LetsFund DeSci dApp',
 }
 
 const getSiweMessageOptions: GetSiweMessageOptions = () => ({
