@@ -88,8 +88,8 @@ export default function Main() {
     try {
       setLoading(true);
       await sendMail(
-        'Sandbox mail subject',
-        'Sandbox mail content',
+        'Thank you for Supporting DeSci',
+        'The entire team of the project you supported is appreciating your kind gesture. we shall not let you down. we shall continue to work on this project to help advance science for the good of all. Thank you. ',
         protectedData,
         'text/plain',
         'iExec-sandbox'
@@ -105,7 +105,7 @@ export default function Main() {
   return (
     <div>
     <Head>
-    <title>Mail</title>
+    <title>DeSci Mail</title>
     <link rel="icon" href="/favicon.ico" />
   </Head>
     <Box className="my-box">
@@ -114,7 +114,7 @@ export default function Main() {
         onClick={handleLoadAddresses}
         variant="contained"
       >
-        Load authorized addresses
+        Load Supporters addresses
       </Button>
 
       {errorMessage && (
@@ -149,7 +149,7 @@ export default function Main() {
                     minWidth: 335,
                   }}
                 >
-                  ETH Address
+                  Supporters Address
                 </TableCell>
                 <TableCell
                   sx={{

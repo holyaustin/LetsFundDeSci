@@ -3,6 +3,7 @@ import { MdCheckCircle } from 'react-icons/md'
 import Donation from './Donation'
 import { CharityStruct, SupportStruct } from '@/utils/type.dt'
 import Image from 'next/image'
+import Link from 'next/link'
 
 interface ComponentProp {
   charity: CharityStruct
@@ -43,6 +44,7 @@ const Details: React.FC<ComponentProp> = ({ charity, supports }) => {
         >
           Donate
         </button>
+        <Link href="/mail" >
         <button
           className="border border-gray-300 py-3 px-20 rounded-lg
           transition-all duration-300 ease-in-out
@@ -50,6 +52,7 @@ const Details: React.FC<ComponentProp> = ({ charity, supports }) => {
         >
           Send Mail
         </button>
+        </Link>
       </div>
 
       <hr className="border-t border-gray-300" />
