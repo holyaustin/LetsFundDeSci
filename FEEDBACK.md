@@ -40,35 +40,31 @@ fetchMyContacts method has prebuild ETH address and i found it difficult adding 
 
 Suggestions for Improvement:
 
-    Let it be open for devs to pull contacts from their own sources not the prebuilt contacts.
+Let it be open for devs to pull contacts from their own sources not the prebuilt contacts.
 
 - Issue 3:
 
 Description of the Issue:
 
-    Lack of Clear Error Handling Examples: While the Web3Mail API endpoints are well-documented, there's a noticeable absence of comprehensive error handling examples. This omission might lead to integration difficulties when handling edge cases or unexpected errors.
-    Affected Areas: API Integration, Troubleshooting
+Lack of Clear Error Handling Examples: While the Web3Mail API endpoints are well-documented, there's a noticeable absence of comprehensive error handling examples. This omission might lead to integration difficulties when handling edge cases or unexpected errors.
+Affected Areas: API Integration, Troubleshooting
 
 Suggestions for Improvement:
 
-    Add Dedicated Error Handling Section: Include a separate section with detailed examples of potential errors (e.g., authentication failures, rate limits, invalid requests) and their corresponding HTTP response codes.
-    Provide Troubleshooting Guide: Offer a step-by-step troubleshooting guide to help developers quickly identify and resolve common integration issues.
+Add Dedicated Error Handling Section: Include a separate section with detailed examples of potential errors (e.g., authentication failures, rate limits, invalid requests) and their corresponding HTTP response codes.
+Provide Troubleshooting Guide: Offer a step-by-step troubleshooting guide to help developers quickly identify and resolve common integration issues.
 
-Relevant Files or Links:
-
-    Suggested new section: "Error Handling & Troubleshooting" under the "API Reference" or as a standalone page.
-
-Issue 4:
+- Issue 4:
 
 Description of the Issue:
 
-    Insufficient Information on Security Best Practices: The documentation lacks explicit guidelines on implementing security best practices when integrating Web3Mail, potentially leaving applications vulnerable. 
+Insufficient Information on Security Best Practices: The documentation lacks explicit guidelines on implementing security best practices when integrating Web3Mail, potentially leaving applications vulnerable. 
     
 Suggestions for Improvement:
 
-    Dedicate a Section to Security Best Practices: Outline clear, Web3Mail-specific security recommendations, including but not limited to, secure content, encryption practices, and authentication flow hardening.
-    Link to Relevant Security Resources: Provide additional reading or resources for developers to deepen their understanding of Web3 security.
-    Possible integration of the in-house tool Data Protector on Mail contents.
+Dedicate a Section to Security Best Practices: Outline clear, Web3Mail-specific security recommendations, including but not limited to, secure content, encryption practices, and authentication flow hardening.
+Link to Relevant Security Resources: Provide additional reading or resources for developers to deepen their understanding of Web3 security.
+Possible integration of the in-house tool Data Protector on Mail contents.
 
 ### Documentation and Resources:
 
