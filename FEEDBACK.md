@@ -26,7 +26,7 @@ After going through the documentation, i used the code sandbox to implement the 
 - Issue 1:
 
 Description of the Issue:
-fetchMyContacts method has prebuild ETH address and i found it difficult adding my own contacts without disrupting the flow of the SDK. 
+fetchMyContacts method has prebuilt ETH address and i found it difficult adding my own contacts without disrupting the flow of the SDK. 
 
 Suggestions for Improvement:
 
@@ -36,7 +36,7 @@ Let it be open for devs to pull contacts from their own sources not the prebuilt
 
 Description of the Issue:
 
-fetchMyContacts method has prebuild ETH address and i found it difficult adding my own contacts without disrupting the flow of the SDK. 
+fetchMyContacts method has prebuilt ETH address and i found it difficult adding my own contacts without disrupting the flow of the SDK. 
 
 Suggestions for Improvement:
 
@@ -77,11 +77,23 @@ Suggestions for Improvement:
 
 If possible, ETH Addresses should have a DASHBOARD to pull out all mails sent and received. From my own experience, there is no where to see mails sent and those received for me to read them.
 
+Consider Interactive Diagrams: Utilize interactive or dynamic diagram tools to enhance user understanding of system interactions.
+
 - Issue 2:
+
+Description of the Issue:
+
+Gaps in Documentation for Edge Cases: Documentation predominantly covers standard use cases, leaving gaps for edge cases or non-standard integrations, which might frustrate developers with unique requirements.
+Affected Areas: Advanced Integration, Custom Use Cases
+
+Suggestions for Improvement:
+
+Community-Driven Edge Case Registry: Create a community forum or wiki section where developers can share, discuss, and document their experiences with edge cases.
+Periodic Documentation Expansion: Schedule regular documentation updates focusing on incorporating solutions for commonly encountered edge cases.
 
 5. Additional Feedback
 
-User Experience: Happy with the initail trail
+User Experience: Happy with the initial trail
 
-Actually the code snadbox helped me to integrate faster. i am also pleased with the use of wagmi. this help me to integrate the multi-chain application with ease. the dApp sensing the required chain and switches to that chain.
+Actually the code sandbox helped me to integrate faster. i am also pleased with the use of wagmi. this help me to integrate the multi-chain application with ease. the dApp sensing the required chain and switches to that chain.
 
